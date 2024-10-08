@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #bc6e6e;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #aca8a8;
+}
+div{
+    display: flex;
+    justify-content: end;
+}
+button {
+    background-color: aqua;
+    font-size: 1rem;
+}
