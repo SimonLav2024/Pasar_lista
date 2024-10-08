@@ -3,6 +3,7 @@
 function descargarPDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
+    
 
     const fecha = new Date().toLocaleDateString();
     doc.text(`Lista de Alumnos - ${fecha}`, 10, 10);
@@ -26,16 +27,23 @@ function descargarPDF() {
 
 // Lista de alumnos
 const alumnos = [
-    "Juan Pérez",
-    "María Gómez",
-    "Luis Fernández",
-    "Ana López",
-    "Pedro Martínez"
+    "Aranda García, Bruno",
+    "Aranda García, Diego",
+    "Brasa Pinilla, Marcos",
+    "Jiménez Márquez, Daniel",
+    "Mateos Machado, Elvira",
+    "Núñez González, David",
+    "Núñez González, Hugo",
+    "Pinilla Muñoz, Pablo",
+    "Rocha Quinteros, Rusev Eydryan",
+    "Sánchez Cano, Nicolás Ramón",
+    "Terrón Guerrero, Cristian"
 ];
 
 // Función para mostrar los alumnos en la tabla
 function mostrarAlumnos() {
     const tbody = document.getElementById('alumnos');
+    
     tbody.innerHTML = ''; // Limpiar tabla
 
     alumnos.forEach(alumno => {
