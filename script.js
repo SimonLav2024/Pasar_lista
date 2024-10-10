@@ -31,6 +31,7 @@ const alumnos = [
     "Aranda García, Diego",
     "Brasa Pinilla, Marcos",
     "Jiménez Márquez, Daniel",
+    "Martínez Moreno, Ignacio",
     "Mateos Machado, Elvira",
     "Núñez González, David",
     "Núñez González, Hugo",
