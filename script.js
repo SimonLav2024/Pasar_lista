@@ -38,7 +38,8 @@ const alumnos = [
     "Pinilla Muñoz, Pablo",
     "Rocha Quinteros, Rusev Eydryan",
     "Sánchez Cano, Nicolás Ramón",
-    "Terrón Guerrero, Cristian"
+    "Terrón Guerrero, Cristian",
+    "Fiestas Pérez, Raul"
 ];
 
 // Función para mostrar los alumnos en la tabla
